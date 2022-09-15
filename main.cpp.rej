@@ -1,0 +1,10 @@
+diff a/main.cpp b/main.cpp	(rejected hunks)
+@@ -173,7 +173,7 @@
+ 
+ PipelineSet object3dCreateGrphicsPipeline(ID3D12Device* dev)
+ {
+-#pragma region シェーダ読み込み
++#pragma region //シェーダ読み込み
+ 	HRESULT result;
+ 	ComPtr<ID3DBlob> vsBlob = nullptr; // 頂点シェーダオブジェクト
+ 	ComPtr<ID3DBlob> psBlob = nullptr; // ピクセルシェーダオブジェクト

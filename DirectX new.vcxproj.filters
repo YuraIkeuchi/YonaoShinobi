@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="シェーダーファイル">
+      <UniqueIdentifier>{2ae3ac01-d766-4d69-9b36-6040582226ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="WinApp.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXCommon.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBullet.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Zone.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackBoard.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resources\Shaders\PlayerPixelShader.hlsl">
+      <Filter>シェーダーファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\PlayerVertexShader.hlsl">
+      <Filter>シェーダーファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\BasicPS.hlsl">
+      <Filter>シェーダーファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\BasicVS.hlsl">
+      <Filter>シェーダーファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\SpritePS.hlsl">
+      <Filter>シェーダーファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\SpriteVS.hlsl">
+      <Filter>シェーダーファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\EnemyPixelShader.hlsl">
+      <Filter>シェーダーファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\EnemyVertexShader.hlsl">
+      <Filter>シェーダーファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\PlayerBulletPixelShader.hlsl">
+      <Filter>シェーダーファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\PlayerBulletVertexShader.hlsl">
+      <Filter>シェーダーファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\ZonePixelShader.hlsl">
+      <Filter>シェーダーファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\ZoneVertexShader.hlsl">
+      <Filter>シェーダーファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\BBPS.hlsl">
+      <Filter>シェーダーファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\BBVS.hlsl">
+      <Filter>シェーダーファイル</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shaders\PlayerHeader.hlsli">
+      <Filter>シェーダーファイル</Filter>
+    </None>
+    <None Include="Resources\Shaders\Basic.hlsli">
+      <Filter>シェーダーファイル</Filter>
+    </None>
+    <None Include="Resources\Shaders\Sprite.hlsli">
+      <Filter>シェーダーファイル</Filter>
+    </None>
+    <None Include="Resources\Shaders\EnemyHeader.hlsli">
+      <Filter>シェーダーファイル</Filter>
+    </None>
+    <None Include="Resources\Shaders\PlayerBulletHeader.hlsli">
+      <Filter>シェーダーファイル</Filter>
+    </None>
+    <None Include="Resources\Shaders\ZoneShaderHeader.hlsli">
+      <Filter>シェーダーファイル</Filter>
+    </None>
+    <None Include="Resources\Shaders\BB.hlsli">
+      <Filter>シェーダーファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Input.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="WinApp.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBullet.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXCommon.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBullet.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Zone.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBoard.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
